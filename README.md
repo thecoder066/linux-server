@@ -76,7 +76,7 @@ sudo ufw status  >>  check current status of ufw
 • Click on the Manage option of the Amazon Lightsail Instance, then the Networking tab, and then change the firewall configuration to match the internal firewall settings above.
 • Allow ports 80(TCP), 123(UDP), and 2200(TCP), and deny the default port 22.
 • Restart SSH with sudo service ssh restart . 
-• From your local terminal, run: ssh -i lightsail_key.rsa -p 2200 ubuntu@34.241.243.81 and press Enter, which (34.241.243.81) is the public IP.
+• From your local terminal, run: ssh -i lightsail_key.rsa -p 2200 ubuntu@52.31.34.58  and press Enter, which (52.31.34.58) is the public IP.
 
 
 2- Users required to authenticate using RSA keys :
